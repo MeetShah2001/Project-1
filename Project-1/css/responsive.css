@@ -1,0 +1,149 @@
+@media only screen and (max-width:925px){
+    .leftNav img {
+        max-height: 52px;
+    }
+    .rightNav{
+        flex-direction: column-reverse;
+        margin-top: 2px;
+        transition: all 0.6s ease-in;
+    }
+     .rightNav li{
+        border-radius: 10px;
+        background: rgb(116, 233, 231);
+        padding: 3px;
+        margin: 3px 39px;
+        text-align: center;
+    }
+    .rightNav li a {
+        margin: 0px -37px;
+    }
+    .item{
+        padding:5px;
+    }
+    .burger{
+        display: block;
+    }
+    .h-class-resp{
+        height: 68px;
+    }
+    .h1-class-resp{
+        height: 54px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .box-main{
+        margin-top: 3%;
+    }
+
+    /* Home Section */
+    .Sec{
+        max-width: 98%;
+        margin: auto;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .thumbnail{
+        width: 100%;
+        justify-content: center;
+    }
+    .home-img{
+        max-width: 100%; 
+    }
+    .p-1{
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+    }
+    .h1-1 {
+        margin: 0px;
+    }
+    .h1-a{
+        margin: 9px 0px;
+    }
+    .para-2 {
+        max-width: none;
+    }
+    .para-3 {
+        max-width: none;
+        margin: 14px auto 70px;
+        text-align: center;
+    }
+    .para-4{
+        max-width: none ;
+    }
+    .para-6 {
+        max-width: none;
+        margin-bottom: 5px;
+    }
+    .para-7 {
+        max-width: none;
+        margin-bottom: 5px;
+    }
+
+    /* footer Section*/
+    .foot ul{
+        flex-direction: column;
+        justify-content: normal;
+    }
+    .item-a {
+        max-width: 100%;
+    }
+    .h1-5 {
+        margin-bottom: 17px;
+    }
+    .V-items {
+        margin-bottom: 15px;
+    }
+    .item-a ul li:before {
+        content: "\f0da";
+        font-family: "FontAwesome";
+        font-size: 14px;
+        color: rgb(2, 54, 63);
+        padding-right: 7px;
+    }
+    .item-b ul{
+        margin-bottom: 23px;
+    }
+    ul.content-dir {
+        flex-direction: row;
+    }
+    .email{
+        padding-top: 0rem;
+    }
+    .Q-items {
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    .Q-items a {
+        padding: 1px 4px;
+        border-radius: 10px;
+    }
+    a.Ql-1{
+        padding-left: 0px;
+    }
+    .fa{
+        margin: 0px;
+    }
+    .item-d ul a:nth-child(2){
+        margin: 0px 16px;
+    }  
+    .pipe:before {
+        content:'|';
+        margin: 4px;
+    }
+    /* .toggle{
+        display: block;
+    } */
+}
+
+@media only screen and (max-width:307px){
+    ul.link-dir{
+        flex-direction: column;
+    }
+    .btn-1 {
+        margin-top: 8px;
+        margin-left: 0px;      
+    }
+}
